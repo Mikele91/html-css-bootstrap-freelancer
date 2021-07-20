@@ -16,3 +16,10 @@ a{
 .hero{
     background-color: #1abc9c;
 }
+section{
+    color: black;
+}
+.section-2{
+    background-color: #1abc9c;
+    color: white;
+}
