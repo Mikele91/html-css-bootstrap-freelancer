@@ -13,16 +13,16 @@
         <header>
             <div class="container">
                 <div class="row justify-content-around ">
-                    <div class="col-6">
+                    <div class="col-6 flex-shrink-0 ">
                       <h2>Start bootstrap</h2>
                     </div>
                     <div class="col-6 row text-end align-self-center ">
-                        <div class=" d-none d-sm-block">
+                        <div class=" d-none d-sm-block ">
                             <a href="#">Portfolio</a>
                             <a href="#">About</a>
                             <a href="#">Contact</a>
                         </div>
-                        <div class="d-sm-none align-self-center " >
+                        <div class="d-sm-none align-self-center pr-3" >
                             <i class="far fa-list-alt"></i>
                         </div>
                     </div>
@@ -40,9 +40,9 @@
                            <h1>START BOOTSTRAP</h1>
                            <div class="row">
                                <div class="col-12 text-center">
-                                   <div class="line-star align-self-center">
+                                   <div class="line-star align-items-center">
                                        <div class="line-star-1"></div>
-                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star px-2"></i>
                                        <div class="line-star-1"></div>
         
                                    </div>
@@ -62,6 +62,19 @@
                         <div class="col text-center">
                             <h2>PORTFOLIO</h2>
                         </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="line-star align-items-center">
+                                <div class="line-star-1 bg-dark"></div>
+                                <i class="fas fa-star px-2"></i>
+                                <div class="line-star-1 bg-dark"></div>
+    
+                            </div>
+                            
+                        </div>
+
                     </div>
                     <div class="row my-5 gy-2">
                         <div class="col-12 col-md-6  col-lg-4 ">
@@ -103,9 +116,20 @@
             <section class="section-2">
                 <div class="wrapper_small">
                     <div class="container-fluid ">
-                        <div class="row my-3 py-2">
+                        <div class="row my-3 py-4">
                             <div class="col-12  text-center">
                                 <h2>About</h2>
+                            </div>
+                        </div>
+                        <div class="row pb-3">
+                            <div class="col-12 text-center">
+                                <div class="line-star align-items-center">
+                                    <div class="line-star-1"></div>
+                                    <i class="fas fa-star px-2"></i>
+                                    <div class="line-star-1"></div>
+     
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="row justify-content-center">
@@ -118,7 +142,7 @@
                         </div>
                         <div class="row my-3 py-2">
                             <div class="col-12  text-center">
-                                <button> BOTTONE</button>
+                                <button type="button" class="btn button_padding-1"><i class="fas fa-download"></i>Download</button>
                             </div>
                         </div>
                 </div>
@@ -133,24 +157,57 @@
                                 <h2>Contact me</h2>
                             </div>
                         </div>
-                        <div class="row m-3 justify-content-center">
-                            <div class="col-7  ">
-                                <ul>
-                                    <li>NOME</li>
-                                    <li>NOME</li>
-                                    <li>NOME</li>
-                                    <li>NOME</li>
-
-                                </ul>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <div class="line-star align-items-center">
+                                    <div class="line-star-1 bg-dark"></div>
+                                    <i class="fas fa-star px-2"></i>
+                                    <div class="line-star-1 bg-dark"></div>
+        
+                                </div>
+                                
                             </div>
+    
+                        </div>
+                        <div class="row m-3 ">
+                            <div class="col ">
+                                <form class="mx-3">
+
+                                    <div class=" mb-3">
+                                      <label for="exampleInputName1" class="form-label"></label>
+                                      <input  type="text" class="form-control" id="exampleInputName1"  placeholder="Nome">
+                                    </div>
+                            
+                            
+                                    <div class="mb-3">
+                            
+                                        <label for="exampleInputEmail1" class="form-label"></label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                        
+                                    </div>
+                            
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label"></label>
+                                      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Numero">
+                                    </div>
+                            
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Message</label>
+                                      </div>
+                                   
+                                    
+                                    </form>
+                                </div>
                         </div>
                         <div class="row mt-5">
-                            <div class="col-12                                                                     text-center">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quasi numquam voluptatem ratione iusto! Iure repellendus harum delectus facere quidem! Enim incidunt laboriosam, fuga libero delectus perferendis veritatis dicta quisquam.
+                         
+                            <div class="col-12 justify-content-center button_border ">
+                                <button type="button" class="btn button_padding ">Send</button>
                             </div>
                         </div>
                     </div>
-             </div>
+                </div>
             </section>
 
 
